@@ -1,5 +1,5 @@
-// import { Link } from "react-scroll";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function FooterWithLogo() {
   return (
@@ -12,9 +12,15 @@ export default function FooterWithLogo() {
           duration={1000}
           className="z-[999]"
         >
-          <b className="text-white hover:text-[#FA939F] font-ubuntu text-xl z-[999]">
-            Ziouche Aymen
-          </b>
+          <div className="top-[53rem] left-[11rem] sm:top-[51rem] sm:left-[53rem]">
+            <Image
+              src="/sign.svg"
+              alt="Signature"
+              className="h-auto w-14 sm:w-auto"
+              width={100}
+              height={100}
+            />
+          </div>
         </Link>
       </div>
     </footer>

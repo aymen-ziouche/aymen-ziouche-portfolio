@@ -41,7 +41,7 @@ export default function About() {
             whileInView="animate"
             className=" text-[#fafafa] md:p-5 xl:p-5 pt-10 md:pt-20 xl:pt-36 xl:-my-10 text-3xl md:text-5xl xl:text-6xl font-ubuntu"
           >
-            Hey there, I&apos;m Muhtadee Taron👋🏼
+            Hey there, I&apos;m Ziouche Aymen👋🏼
           </motion.p>
           <motion.p
             variants={items}
@@ -49,7 +49,10 @@ export default function About() {
             whileInView="animate"
             className=" text-[#fafafa] w-unit-6xl md:w-unit-9xl md:p-5 xl:p-5 pt-5 md:pt-5 xl:pt-36 xl:-my-10 text-base md:text-lg xl:text-xl max-w-5xl font-lato"
           >
-            Code whisperer. Building stunning, intuitive UIs that wow. React + Tailwind master. Cross-team ninja. Devouring tech trends. Seeking complex challenges to conquer. Building accessible UIs with React & fighting for UX justice in spare time
+            Code whisperer. Building stunning, intuitive UIs that wow. React +
+            Tailwind master. Cross-team ninja. Devouring tech trends. Seeking
+            complex challenges to conquer. Building accessible UIs with React &
+            fighting for UX justice in spare time
           </motion.p>
         </div>
         <FramerMgBtn>

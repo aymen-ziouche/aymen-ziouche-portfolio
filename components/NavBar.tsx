@@ -31,7 +31,13 @@ export function NavBar() {
     <div className="relative w-full bg-transparent " id="home">
       <FloatingNav navItems={navItems} />
       <div className="absolute top-[53rem] left-[11rem] sm:top-[51rem] sm:left-[53rem]">
-        <Image src="/sign.png" alt="Signature" className="h-auto w-14 sm:w-auto" height={100} width={100} />
+        <Image
+          src="/sign.svg"
+          alt="Signature"
+          className="h-auto w-14 sm:w-auto"
+          height={100}
+          width={100}
+        />
       </div>
     </div>
   );

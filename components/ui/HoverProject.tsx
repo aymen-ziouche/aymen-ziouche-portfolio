@@ -7,34 +7,35 @@ export const HoverProject = () => {
     <section className="bg-neutral-950 p-4 z-[99999] md:p-8">
       <div className="mx-auto max-w-5xl z-[99999]">
         <Link
-          heading="Batash"
-          subheading="Native Android Weather App"
-          imgSrc="/Batash.jpg"
-          href="https://github.com/aluffyyyy/Batash"
+          heading="Adoptini"
+          subheading="a platform for finding and adopting pets and posting your pets for adoption"
+          imgSrc="/adoptini.png"
+          href="https://github.com/aymen-ziouche/adoptini-app"
         />
         <Link
-          heading="Doust"
-          subheading="Native Android Gemini AI Chat-bot App"
-          imgSrc="/Doust.jpg"
-          href="https://github.com/aluffyy/Doust"
+          heading="Dawii Tech"
+          subheading="a revolutionary healthcare application designed to streamline the process of prescription fulfillment by connecting patients directly with pharmacies."
+          imgSrc="/dawiiTech.png"
+          href="https://github.com/aymen-ziouche/dawiiTech-patient"
         />
         <Link
-          heading="Contacts-KMM"
-          subheading="Multi-Platform App using Kotlin"
-          imgSrc="/ContactsKMM.jpg"
-          href="https://github.com/aluffyy/ContactsComposeMaterial3-KMM"
+          heading="IDCardConnect"
+          subheading="a Flutter application that allows you to read and extract data from electronic ID Cards using NFC."
+          imgSrc="/idCardConnect.png"
+          href="https://github.com/aymen-ziouche/IDCardConnect"
         />
         <Link
-          heading="Shokhi"
-          subheading="Cross Platform Gemini AI Chat-bot App using Flutter"
-          imgSrc="/Shokhi.jpg"
-          href="https://github.com/aluffyy/Shokhi"
+          heading="Sognssa"
+          subheading="a mobile e-commerce application that provides a platform for purchasing products marketed towards women."
+          imgSrc="/sognssa.png"
+          href="https://github.com/aymen-ziouche/Sog-nssa"
         />
         <Link
-          heading="FlutterBatash"
-          subheading="Cross Platform Weather App using Flutter"
-          imgSrc="/FlutterBatash.jpg"
-          href="https://github.com/aluffyy/flutterBatash"
+          heading="Mersisse"
+          subheading="Mersisse is a platform that connects buyers and sellers, enabling them to transact with one another.
+          "
+          imgSrc="/merssise.png"
+          href="https://play.google.com/store/apps/details?id=com.zwaki.mersisse"
         />
       </div>
     </section>
@@ -82,6 +83,7 @@ const Link = ({ heading, imgSrc, subheading, href }: LinkProps) => {
     <motion.a
       href={href}
       ref={ref}
+      target="_blank"
       onMouseMove={handleMouseMove}
       initial="initial"
       whileHover="whileHover"

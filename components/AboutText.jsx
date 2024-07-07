@@ -44,7 +44,7 @@ function AboutText() {
           id="stick-title"
           className=" text-[#fafafa] md:p-5 xl:p-5 pt-10 md:pt-20 xl:pt-36 xl:-my-10 text-2xl text-center sm:text-left md:text-5xl xl:text-6xl font-ubuntu"
         >
-          Hey there, I&apos;m Mustakim Islam Alif
+          Hey there, I&apos;m Ziouche Aymen
         </motion.p>
         <motion.p
           variants={items}
@@ -59,9 +59,9 @@ function AboutText() {
           id="stick-title"
           className=" text-[#fafafa] w-unit-6xl md:w-unit-9xl md:p-5 xl:p-5 pt-5 md:pt-5 xl:pt-20 xl:-my-10 -ml-7 sm:ml-0 text-sm text-center sm:text-left md:text-lg xl:text-lg max-w-5xl font-lato"
         >
-          Master of Cross-Platform and Native Development: Fluent in Kotlin
-          Compose and Flutter. Bridging the gap between platforms, delivering
-          seamless experiences across devices.
+          Master of Cross-Platform Development: Fluent in Flutter. Bridging
+          the gap between platforms, delivering seamless experiences across
+          devices.
         </motion.p>
       </div>
     </div>

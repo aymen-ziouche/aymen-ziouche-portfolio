@@ -80,7 +80,7 @@ export default function Home() {
             }}
             className=" text-[#FFFFFE]  text-sm md:text-lg md:m-5 xl:text-2xl xl:m-10 font-ubuntu  font-black"
           >
-            Bangladesh📍
+            Algeria📍
           </motion.p>
         </motion.div>
         <motion.div
@@ -106,7 +106,7 @@ export default function Home() {
                 viewport={{
                   once: true,
                 }}
-                href="./Mustakim_Islam_Alif.pdf"
+                href="./Aymen-Ziouche-Resume.pdf"
                 download
                 className="text-[#FFFFFE] hover:text-[#FA939F] font-lato font-black"
               >
@@ -128,7 +128,7 @@ export default function Home() {
                 }}
                 target="_blank"
                 rel="noreferrer"
-                href="https://github.com/aluffyy"
+                href="https://github.com/aymen-ziouche"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -160,7 +160,7 @@ export default function Home() {
                 }}
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.linkedin.com/in/alifisalu/"
+                href="https://www.linkedin.com/in/aymen-ziouche-277552202/"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

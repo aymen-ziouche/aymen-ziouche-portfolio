@@ -4,7 +4,6 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import FramerMgBtn from "./FramerMgBtn";
 import { useRef } from "react";
 import { FileText, Github, Linkedin } from "lucide-react";
-import Alu from "../public/alu.png";
 import Image from "next/image";
 
 type Props = {};
@@ -83,7 +82,7 @@ const Hero = (props: Props) => {
           }}
           className=" text-black  text-sm md:text-lg md:m-5 xl:text-2xl xl:m-10 font-ubuntu  font-black"
         >
-          Bangladesh📍
+          Algeria📍
         </motion.p>
       </motion.div>
       <motion.div
@@ -109,7 +108,7 @@ const Hero = (props: Props) => {
               viewport={{
                 once: true,
               }}
-              href="./Mustakim_Islam_Alif.pdf"
+              href="./Aymen-Ziouche-Resume.pdf"
               download
               className="text-black hover:text-[#FA939F] font-lato font-black"
             >
@@ -131,7 +130,7 @@ const Hero = (props: Props) => {
               }}
               target="_blank"
               rel="noreferrer"
-              href="https://github.com/aluffyy"
+              href="https://github.com/aymen-ziouche"
               className="text-black transition ease-in-out hover:text-[#FA939F] font-lato font-black"
             >
               <Github className="ml-1" />
@@ -151,7 +150,7 @@ const Hero = (props: Props) => {
               }}
               target="_blank"
               rel="noreferrer"
-              href="https://www.linkedin.com/in/alifisalu/"
+              href="https://www.linkedin.com/in/aymen-ziouche-277552202/"
               className="transition ease-in-out text-black hover:text-[#FA939F] font-lato font-black"
             >
               <Linkedin className="ml-1" />
@@ -183,7 +182,7 @@ const Hero = (props: Props) => {
             }}
             className=" text-[#242424] md:text-7xl md:-my-10 xl:text-9xl uppercase font-generalSans xl:-my-10 font-black"
           >
-            Mustakim Islam Alif
+            Ziouche Aymen
           </motion.p>
           <motion.p
             variants={items}
@@ -194,7 +193,7 @@ const Hero = (props: Props) => {
             }}
             className="hehe text-white md:text-7xl md:-my-10 xl:text-9xl uppercase font-generalSans xl:-my-10 font-black"
           >
-            Mustakim Islam Alif
+            Ziouche Aymen
           </motion.p>
           <motion.p
             variants={items}
@@ -205,7 +204,7 @@ const Hero = (props: Props) => {
             }}
             className="hehe text-white md:text-7xl md:-my-10 xl:text-9xl uppercase font-generalSans xl:-my-10 font-black"
           >
-            Mustakim Islam Alif
+            Ziouche Aymen
           </motion.p>
           <motion.p
             variants={items}
@@ -216,7 +215,7 @@ const Hero = (props: Props) => {
             }}
             className=" text-[#242424] md:text-7xl md:mb-5 md:-my-10 xl:text-9xl uppercase font-generalSans xl:-my-10 font-black"
           >
-            Mustakim Islam Alif
+            Ziouche Aymen
           </motion.p>
         </motion.div>
       </div> */}

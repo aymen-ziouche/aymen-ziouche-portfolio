@@ -6,8 +6,8 @@ import { Providers } from "./providers";
 const ubuntu = Ubuntu({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
-  title: "Mustakim Islam Alif | App Developer",
-  description: "App Developer, Mustakim Islam Alif",
+  title: "Ziouche Aymen | App Developer",
+  description: "App Developer, Ziouche Aymen",
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon-16x16.png",

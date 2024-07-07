@@ -1,6 +1,5 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
-import Sites from "./Sites";
 import { HoverProject } from "./ui/HoverProject";
 
 export default function Projects() {

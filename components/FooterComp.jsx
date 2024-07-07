@@ -13,7 +13,7 @@ export default function FooterWithLogo() {
           className="z-[999]"
         >
           <b className="text-white hover:text-[#FA939F] font-ubuntu text-xl z-[999]">
-            Mustakim Islam Alif
+            Ziouche Aymen
           </b>
         </Link>
       </div>

@@ -30,7 +30,7 @@ export function NavBar() {
   return (
     <div className="relative w-full bg-transparent " id="home">
       <FloatingNav navItems={navItems} />
-      <div className="absolute top-[53rem] left-[11rem] sm:top-[51rem] sm:left-[53rem]">
+      <div className="absolute top-[53rem] left-[11rem] sm:top-[51rem] sm:left-[57rem]">
         <Image
           src="/sign.svg"
           alt="Signature"

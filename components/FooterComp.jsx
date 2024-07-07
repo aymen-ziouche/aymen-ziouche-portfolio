@@ -12,7 +12,7 @@ export default function FooterWithLogo() {
           duration={1000}
           className="z-[999]"
         >
-          <div className="top-[53rem] left-[11rem] sm:top-[51rem] sm:left-[53rem]">
+          <div className="top-[53rem] left-[11rem] sm:top-[51rem] sm:left-[57rem]">
             <Image
               src="/sign.svg"
               alt="Signature"

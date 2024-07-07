@@ -41,7 +41,7 @@ export default function About() {
             whileInView="animate"
             className=" text-[#fafafa] md:p-5 xl:p-5 pt-10 md:pt-20 xl:pt-36 xl:-my-10 text-3xl md:text-5xl xl:text-6xl font-ubuntu"
           >
-            Hey there, I&apos;m Ziouche Aymen👋🏼
+            Hey there, I&apos;m Aymen Ziouche👋🏼
           </motion.p>
           <motion.p
             variants={items}

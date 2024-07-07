@@ -116,7 +116,10 @@ const Link = ({ heading, imgSrc, subheading, href }: LinkProps) => {
             </motion.span>
           ))}
         </motion.span>
-        <span className="relative block mt-2 text-xs sm:text-base text-white transition-all ease-in-out group-hover:text-[#6A43C4] z-[99999]">
+        <span
+          className="relative block mt-2 text-xs sm:text-base text-white transition-all ease-in-out group-hover:text-[#6A43C4] z-[99999]"
+          style={{ marginBottom: "15px" }}
+        >
           {subheading}
         </span>
       </div>

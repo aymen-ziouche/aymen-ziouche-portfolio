@@ -8,25 +8,25 @@ export const HoverProject = () => {
       <div className="mx-auto max-w-5xl z-[99999]">
         <Link
           heading="Adoptini"
-          subheading="a platform for finding and adopting pets and posting your pets for adoption"
+          subheading="Adoptini is a platform for finding and adopting pets and posting your pets for adoption"
           imgSrc="/adoptini.png"
           href="https://github.com/aymen-ziouche/adoptini-app"
         />
         <Link
           heading="Dawii Tech"
-          subheading="a revolutionary healthcare application designed to streamline the process of prescription fulfillment by connecting patients directly with pharmacies."
+          subheading="A revolutionary healthcare application designed to streamline the process of prescription fulfillment by connecting patients directly with pharmacies."
           imgSrc="/dawiiTech.png"
           href="https://github.com/aymen-ziouche/dawiiTech-patient"
         />
         <Link
           heading="IDCardConnect"
-          subheading="a Flutter application that allows you to read and extract data from electronic ID Cards using NFC."
+          subheading="A Flutter application that allows you to read and extract data from electronic ID Cards using NFC."
           imgSrc="/idCardConnect.png"
           href="https://github.com/aymen-ziouche/IDCardConnect"
         />
         <Link
           heading="Sognssa"
-          subheading="a mobile e-commerce application that provides a platform for purchasing products marketed towards women."
+          subheading="A mobile e-commerce application that provides a platform for purchasing products marketed towards women."
           imgSrc="/sognssa.png"
           href="https://github.com/aymen-ziouche/Sog-nssa"
         />

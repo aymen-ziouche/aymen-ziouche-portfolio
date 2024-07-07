@@ -30,10 +30,10 @@ export default function Contact() {
             <a
               className="ml-2"
               target="_blank"
-              href="mailto: aymen.zch23@gmail.com"
+              href="mailto: aymen@ziouche.dev"
               rel="noreferrer"
             >
-              aymen.zch23@gmail.com
+              aymen@ziouche.dev
             </a>
           </p>
         </motion.div>
@@ -43,7 +43,7 @@ export default function Contact() {
               <FramerMgBtn>
                 <a
                   target="_blank"
-                  href="mailto: aymen.zch23@gmail.com"
+                  href="mailto: aymen@ziouche.dev"
                   rel="noreferrer"
                 >
                   Hit Me Up! 🙌

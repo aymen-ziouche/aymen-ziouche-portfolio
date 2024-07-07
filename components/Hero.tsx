@@ -108,7 +108,7 @@ const Hero = (props: Props) => {
               viewport={{
                 once: true,
               }}
-              href="./Aymen-Ziouche-Resume.pdf"
+              href="./aymen_ziouche_resume.pdf"
               download
               className="text-black hover:text-[#FA939F] font-lato font-black"
             >
@@ -150,7 +150,7 @@ const Hero = (props: Props) => {
               }}
               target="_blank"
               rel="noreferrer"
-              href="https://www.linkedin.com/in/aymen-ziouche-277552202/"
+              href="https://www.linkedin.com/in/aymen-ziouche"
               className="transition ease-in-out text-black hover:text-[#FA939F] font-lato font-black"
             >
               <Linkedin className="ml-1" />

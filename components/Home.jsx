@@ -106,7 +106,7 @@ export default function Home() {
                 viewport={{
                   once: true,
                 }}
-                href="./Aymen-Ziouche-Resume.pdf"
+                href="./aymen_ziouche_resume.pdf"
                 download
                 className="text-[#FFFFFE] hover:text-[#FA939F] font-lato font-black"
               >
@@ -160,7 +160,7 @@ export default function Home() {
                 }}
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.linkedin.com/in/aymen-ziouche-277552202/"
+                href="https://www.linkedin.com/in/aymen-ziouche"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

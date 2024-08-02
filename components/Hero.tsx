@@ -108,7 +108,7 @@ const Hero = (props: Props) => {
               viewport={{
                 once: true,
               }}
-              href="./aymen_ziouche_resume.pdf"
+              href="./aymen-ziouche-resume.pdf"
               download
               className="text-black hover:text-[#FA939F] font-lato font-black"
             >

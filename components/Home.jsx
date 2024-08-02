@@ -106,7 +106,7 @@ export default function Home() {
                 viewport={{
                   once: true,
                 }}
-                href="./aymen_ziouche_resume.pdf"
+                href="./aymen-ziouche-resume.pdf"
                 download
                 className="text-[#FFFFFE] hover:text-[#FA939F] font-lato font-black"
               >

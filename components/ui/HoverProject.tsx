@@ -15,6 +15,8 @@ export const HoverProject = () => {
         <Link
           heading="Wergonic"
           subheading="Ergonomics app connected to wearable BLE sensors. Reads movement data, generates movement risk reports and ships OTA firmware updates from inside the app."
+          imgSrc="/wergonic.png"
+          href="https://play.google.com/store/apps/details?id=com.wergonic.wergo"
         />
         <Link
           heading="Adoptini"

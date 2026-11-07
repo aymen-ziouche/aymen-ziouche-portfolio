@@ -7,6 +7,15 @@ export const HoverProject = () => {
     <section className="bg-neutral-950 p-4 z-[99999] md:p-8">
       <div className="mx-auto max-w-5xl z-[99999]">
         <Link
+          heading="EasyA"
+          subheading="Learn-and-earn Web3 app with over 1M downloads. I owned the Flutter app end to end: daily streaks with native iOS & Android home screen widgets, deep links, referrals and on-chain contract deployment for Algorand and Flare."
+          href="https://apps.apple.com/app/id1478549100"
+        />
+        <Link
+          heading="Wergonic"
+          subheading="Ergonomics app connected to wearable BLE sensors. Reads movement data, generates movement risk reports and ships OTA firmware updates from inside the app."
+        />
+        <Link
           heading="Adoptini"
           subheading="Adoptini is a platform for finding and adopting pets and posting your pets for adoption"
           imgSrc="/adoptini.png"
@@ -19,21 +28,8 @@ export const HoverProject = () => {
           href="https://github.com/aymen-ziouche/dawiiTech-patient"
         />
         <Link
-          heading="IDCardConnect"
-          subheading="A Flutter application that allows you to read and extract data from electronic ID Cards using NFC."
-          imgSrc="/idCardConnect.png"
-          href="https://github.com/aymen-ziouche/IDCardConnect"
-        />
-        <Link
-          heading="Sognssa"
-          subheading="A mobile e-commerce application that provides a platform for purchasing products marketed towards women."
-          imgSrc="/sognssa.png"
-          href="https://github.com/aymen-ziouche/Sog-nssa"
-        />
-        <Link
           heading="Mersisse"
-          subheading="Mersisse is a platform that connects buyers and sellers, enabling them to transact with one another.
-          "
+          subheading="Mersisse is a platform that connects buyers and sellers, enabling them to transact with one another."
           imgSrc="/merssise.png"
           href="https://play.google.com/store/apps/details?id=com.zwaki.mersisse"
         />
@@ -44,9 +40,9 @@ export const HoverProject = () => {
 
 interface LinkProps {
   heading: string;
-  imgSrc: string;
+  imgSrc?: string;
   subheading: string;
-  href: string;
+  href?: string;
 }
 
 const Link = ({ heading, imgSrc, subheading, href }: LinkProps) => {
@@ -83,7 +79,8 @@ const Link = ({ heading, imgSrc, subheading, href }: LinkProps) => {
     <motion.a
       href={href}
       ref={ref}
-      target="_blank"
+      target={href ? "_blank" : undefined}
+      rel={href ? "noopener noreferrer" : undefined}
       onMouseMove={handleMouseMove}
       initial="initial"
       whileHover="whileHover"
@@ -124,6 +121,7 @@ const Link = ({ heading, imgSrc, subheading, href }: LinkProps) => {
         </span>
       </div>
 
+      {imgSrc && (
       <motion.img
         style={{
           top,
@@ -141,7 +139,9 @@ const Link = ({ heading, imgSrc, subheading, href }: LinkProps) => {
         className="absolute h-44 w-20 rounded-lg object-cover md:h-60 z-[99999999] md:w-28 sm:ml-20"
         alt={`Image representing a link for ${heading}`}
       />
+      )}
 
+      {href && (
       <motion.div
         variants={{
           initial: {
@@ -158,6 +158,7 @@ const Link = ({ heading, imgSrc, subheading, href }: LinkProps) => {
       >
         <MoveRight className="text-5xl text-[#6A43C4] z-[99999]" />
       </motion.div>
+      )}
     </motion.a>
   );
 };

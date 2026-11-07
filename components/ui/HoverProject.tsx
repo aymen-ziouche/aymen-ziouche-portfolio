@@ -9,6 +9,7 @@ export const HoverProject = () => {
         <Link
           heading="EasyA"
           subheading="Learn-and-earn Web3 app with over 1M downloads. I owned the Flutter app end to end: daily streaks with native iOS & Android home screen widgets, deep links, referrals and on-chain contract deployment for Algorand and Flare."
+          imgSrc="/easya.png"
           href="https://apps.apple.com/app/id1478549100"
         />
         <Link
